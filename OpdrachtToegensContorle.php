@@ -23,12 +23,12 @@ class Spanjaard extends person{
     protected $nationaliteit = "Spanjaard";
 }
 
-$GekkePersoon = new person();
-$GekkePersoon->naam = "Kaj";
-$GekkePersoon->achternaam = "de Wilt";
-$GekkePersoon->leeftijd = 17;
-$GekkePersoon->geslacht = "Man";
-$GekkePersoon->veranderAfkomst();
+$GekkePersoonNederland = new person();
+$GekkePersoonNederland->naam = "Kaj";
+$GekkePersoonNederland->achternaam = "de Wilt";
+$GekkePersoonNederland->leeftijd = 17;
+$GekkePersoonNederland->geslacht = "Man";
+$GekkePersoonNederland->veranderAfkomst();
 
 echo print_r($persoon1). "<br />";
 
